@@ -1,11 +1,24 @@
 header
 {
+  background-color:#002171;
+  color:#ffffff
+  font-family:georgia, sans-serif;
 }
+h1
+{
+  200% Line height********************
+}
+h2
+{
+  coolor:#1976d2;
+  font-family:georgia,serif;
 nav
 {
+background-color:#bbdefb;
 }
 div
 {
+  color:#002171;
 }
 main
 {
@@ -13,3 +26,13 @@ main
 footer
 {
 }
+body
+{ 
+background-color:#ffffff;
+color:#666666;
+font-family: Arial, Helvetica, sans-serif;
+}
+  .resort 
+ {
+  color:#1976d2;
+ }
