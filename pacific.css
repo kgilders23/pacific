@@ -27,6 +27,7 @@ footer
   font-size:.70em;
   font-weight:italic;
 }
+
 body
 { 
 background-color:#ffffff;
@@ -38,3 +39,9 @@ font-family: Arial, Verdana, sans-serif;
   color:#1976d2;
   font-size:1.2em;
  }
+  .wrapper
+  {
+   width:80%;
+    margin-right:auto;
+    margin-left:auto;
+  }
