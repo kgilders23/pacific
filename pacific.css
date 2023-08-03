@@ -2,20 +2,56 @@ header
 {
   background-color:#002171;
   color:#ffffff;
+  background-image:url("sunset.jpg");
+  background-repeat:no-repeat;
+  background-position:right;
+  height:72px;
   font-family:georgia, sans-serif;
+}
+homehero
+{
+  height:300px
+ background-image:url("coast.jpg");
+ background-size: 100% 100%;
+ background-repeat:no-repeat;
+}
+yurthero
+{
+  height:300px;
+  background-image:url("yurt.jpg");
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+}
+trailhero
+{
+ height:300px;
+  background-image:url("trail.jpg");
+  background-size:100% 100%;
+  background-repeat:no-repeat;
 }
 h1
 {
- line-height:200%;
+padding-top:.5em;
+text-align:center;
+  
 }
 h2
 {
   coolor:#1976d2;
   font-family:georgia,serif;
+}
+h3
+{
+font-family:georgia,serif
+}
 nav
 {
-background-color:#bbdefb;
-  font-weight:bold;
+text-align:center;
+font-weight:bold;
+padding-top:.5em;
+padding-right:.5em;
+padding-bottom:.5em;
+text-decoration:none;
 }
 dt
 {
@@ -26,11 +62,16 @@ footer
 {
   font-size:.70em;
   font-weight:italic;
+  padding-top:1em;
+  padding-right:1em;
+  padding-bottom:1em;
+  padding-left:1em;
 }
 
 body
 { 
-background-color:#ffffff;
+background-color:#90c7e3;
+linear-gradient:#ffffff,#90c7e3;
 color:#666666;
 font-family: Arial, Verdana, sans-serif;
 }
@@ -41,7 +82,15 @@ font-family: Arial, Verdana, sans-serif;
  }
   .wrapper
   {
-   width:80%;
-    margin-right:auto;
-    margin-left:auto;
+  background-color:#ffffff
+  width:80%;
+  min-width:960px;
+  max-width:2048px;
+  margin-right:auto;
+  margin-left:auto;
   }
+main
+{
+padding-left:2em;
+padding-right:2em;
+}
